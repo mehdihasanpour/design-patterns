@@ -7,4 +7,5 @@ require('/opt/lampp/htdocs/designpattern/psysh');
 
 class CustomTestCase extends TestCase
 {
+    // eval(\Psy\sh());
 }

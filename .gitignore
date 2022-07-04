@@ -1,8 +1,5 @@
 vendor/
-var/cache/.phpunit.result.cache
-var/cache/.php_cs.cache
-var/stan
-var/log
+.phpunit.result.cache
 .idea/
 .vscode/
 .env
