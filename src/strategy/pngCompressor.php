@@ -2,7 +2,7 @@
 
 namespace App\strategy;
 
-class pngCompressor implements compressor
+class pngCompressor implements compressorInterface
 {
     public function compress():string
     {

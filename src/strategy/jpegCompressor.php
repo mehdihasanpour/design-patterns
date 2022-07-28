@@ -2,7 +2,7 @@
 
 namespace App\strategy;
 
-class jpegCompressor implements compressor
+class jpegCompressor implements compressorInterface
 {
     public function compress():string
     {

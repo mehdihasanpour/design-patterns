@@ -2,7 +2,7 @@
 
 namespace App\strategy;
 
-interface compressor
+interface compressorInterface
 {
     public function compress():string;
 }

@@ -2,7 +2,7 @@
 
 namespace App\strategy;
 
-class highContrastFilter implements filter
+class highContrastFilter implements filterInterface
 {
     public function filter():string
     {

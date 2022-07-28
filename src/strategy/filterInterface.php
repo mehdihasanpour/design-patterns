@@ -2,7 +2,7 @@
 
 namespace App\strategy;
 
-interface filter
+interface filterInterface
 {
     public function filter():string;
 }

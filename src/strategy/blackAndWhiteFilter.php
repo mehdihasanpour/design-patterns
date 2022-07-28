@@ -2,7 +2,7 @@
 
 namespace App\strategy;
 
-class blackAndWhiteFilter implements filter
+class blackAndWhiteFilter implements filterInterface
 {
     public function filter():string
     {
