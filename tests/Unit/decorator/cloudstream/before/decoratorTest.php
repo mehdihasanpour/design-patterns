@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\Unit\decorator\before;
+namespace Test\Unit\decorator\cloudstream\before;
 
 use App\decorator\cloudstream\before\CloudStream;
 use App\decorator\cloudstream\before\CompressedCloudStream;
