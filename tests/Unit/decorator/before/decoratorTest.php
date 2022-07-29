@@ -1,10 +1,10 @@
 <?php
 
-namespace Test\Unit\decorator;
+namespace Test\Unit\decorator\before;
 
-use App\decorator\cloudstream\CloudStream;
-use App\decorator\cloudstream\CompressedCloudStream;
-use App\decorator\cloudstream\EncryptedCloudStream;
+use App\decorator\cloudstream\before\CloudStream;
+use App\decorator\cloudstream\before\CompressedCloudStream;
+use App\decorator\cloudstream\before\EncryptedCloudStream;
 use Test\Support\CustomTestCase;
 
 class decoratorTest extends CustomTestCase

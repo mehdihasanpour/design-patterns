@@ -1,6 +1,6 @@
 <?php
 
-namespace App\decorator\cloudstream;
+namespace App\decorator\cloudstream\before;
 
 class CloudStream
 {
