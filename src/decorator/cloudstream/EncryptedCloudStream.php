@@ -6,7 +6,7 @@ class EncryptedCloudStream extends CloudStream
 {
     public function write(string $data): string
     {
-        return $this->encrypt($data).' stored';
+        return parent::write($this->encrypt($data));
     }
 
     private function encrypt(string $data): string
