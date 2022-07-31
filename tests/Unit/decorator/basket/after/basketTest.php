@@ -3,9 +3,7 @@
 namespace Test\Unit\decorator\basket\after;
 
 use App\decorator\basket\after\BasketCost;
-use App\decorator\basket\after\ShippingCost;
 use App\decorator\basket\after\ShippingCostDecorator;
-use App\decorator\basket\after\TaxCost;
 use App\decorator\basket\after\TaxCostDecorator;
 use Test\Support\CustomTestCase;
 
